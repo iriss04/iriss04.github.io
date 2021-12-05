@@ -13,25 +13,17 @@
       <pubDate>Sun, 05 Dec 2021 00:14:32 +0100</pubDate>
       
       <guid>https://iriss04.github.io/posts/intro/</guid>
-      <description>Introduction This is a markdown text</description>
+      <description>This website is a part of project assignment B in the course 02805 - Social Graphs and interactions at DTU. Here we will present our idea and analyses to the world! We will with this website tell the story about our dataset and what we&amp;rsquo;ve learned.</description>
     </item>
     
     <item>
-      <title>Data Set</title>
+      <title>Dataset</title>
       <link>https://iriss04.github.io/posts/data/</link>
       <pubDate>Mon, 29 Nov 2021 15:06:33 +0100</pubDate>
       
       <guid>https://iriss04.github.io/posts/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Link To Notebook</title>
-      <link>https://iriss04.github.io/posts/link/</link>
-      <pubDate>Mon, 29 Nov 2021 15:06:15 +0100</pubDate>
-      
-      <guid>https://iriss04.github.io/posts/link/</guid>
-      <description></description>
+      <description>About the dataset The dataset we&amp;rsquo;re exploring is from Greek mythology. The data used in this project was extracted from a Fandom page containing all kinds of information about characters of Greek mythology.
+The dataset we extracted includes information about many categories of greek mythology. To name a few we have for example Gods, Heroes, Creatures and Peoples. The dataset includes which characters belong to which categories and text about each of them.</description>
     </item>
     
     <item>
