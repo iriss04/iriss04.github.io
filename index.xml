@@ -23,7 +23,7 @@ Here is our video submission for part A of this assignment.</description>
       <pubDate>Mon, 29 Nov 2021 23:46:33 +0100</pubDate>
       
       <guid>https://iriss04.github.io/posts/data/</guid>
-      <description>About the dataset The dataset we&amp;rsquo;re exploring is from Greek mythology. The data used in this project was extracted from a Fandom page containing all kinds of information about characters of Greek mythology.
+      <description>About the dataset The dataset we&amp;rsquo;re exploring is from Greek mythology. The data used in this project was extracted from a Fandom wiki containing all kinds of information about characters of Greek mythology.
 The dataset we extracted includes information about many categories of greek mythology. To name a few we have for example Gods, Heroes, Creatures and Peoples. The dataset includes which characters belong to which categories and text about each of them.</description>
     </item>
     
@@ -33,7 +33,19 @@ The dataset we extracted includes information about many categories of greek myt
       <pubDate>Mon, 29 Nov 2021 23:45:51 +0100</pubDate>
       
       <guid>https://iriss04.github.io/posts/network/</guid>
-      <description></description>
+      <description>In this post you will see the network of Greek mythology we created. How the information from the Fandom wiki was extracted is detailed in the dataset post.
+The network After getting all the characters, their texts and their links the Giant Connected Component (GCC) was plotted. The characters, nodes, is given different colours to make it more visually pretty and there is added edges in between to see which characters has links to which.</description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>https://iriss04.github.io/posts/analysis/</link>
+      <pubDate>Mon, 29 Nov 2021 22:46:41 +0100</pubDate>
+      
+      <guid>https://iriss04.github.io/posts/analysis/</guid>
+      <description>For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
+Word clouds We created word clouds for the top categories:
+ Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files.</description>
     </item>
     
     <item>
@@ -45,15 +57,6 @@ The dataset we extracted includes information about many categories of greek myt
       <description>For this project we created an explainer notebook.
 ÍBS: I&amp;rsquo;ll put a description of the notebook here
 You can find the notebook here.</description>
-    </item>
-    
-    <item>
-      <title>Characters</title>
-      <link>https://iriss04.github.io/posts/characters/</link>
-      <pubDate>Mon, 29 Nov 2021 13:45:41 +0100</pubDate>
-      
-      <guid>https://iriss04.github.io/posts/characters/</guid>
-      <description>There are XXX number of characters in the Greek Mythology network. In this project there are XXX nodes and XXX links. The largest node is XXX with XXX number og links.</description>
     </item>
     
   </channel>
