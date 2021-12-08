@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>The Network | Greek Mythology</title>
+    <title>The Network and basic stats | Greek Mythology</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="In this post you will see the network of Greek mythology we created. How the information from the Fandom wiki was extracted is detailed in the dataset post.
 The network After getting all the characters, their texts and their links the Giant Connected Component (GCC) was plotted. The characters, nodes, is given different colours to make it more visually pretty and there is added edges in between to see which characters has links to which.">
@@ -27,7 +27,7 @@ The network After getting all the characters, their texts and their links the Gi
 
     
     
-    <meta property="og:title" content="The Network" />
+    <meta property="og:title" content="The Network and basic stats" />
 <meta property="og:description" content="In this post you will see the network of Greek mythology we created. How the information from the Fandom wiki was extracted is detailed in the dataset post.
 The network After getting all the characters, their texts and their links the Giant Connected Component (GCC) was plotted. The characters, nodes, is given different colours to make it more visually pretty and there is added edges in between to see which characters has links to which." />
 <meta property="og:type" content="article" />
@@ -35,13 +35,13 @@ The network After getting all the characters, their texts and their links the Gi
 <meta property="article:published_time" content="2021-11-29T23:45:51+01:00" />
 <meta property="article:modified_time" content="2021-11-29T23:45:51+01:00" />
 
-<meta itemprop="name" content="The Network">
+<meta itemprop="name" content="The Network and basic stats">
 <meta itemprop="description" content="In this post you will see the network of Greek mythology we created. How the information from the Fandom wiki was extracted is detailed in the dataset post.
 The network After getting all the characters, their texts and their links the Giant Connected Component (GCC) was plotted. The characters, nodes, is given different colours to make it more visually pretty and there is added edges in between to see which characters has links to which."><meta itemprop="datePublished" content="2021-11-29T23:45:51+01:00" />
 <meta itemprop="dateModified" content="2021-11-29T23:45:51+01:00" />
-<meta itemprop="wordCount" content="212">
+<meta itemprop="wordCount" content="488">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The Network"/>
+<meta name="twitter:title" content="The Network and basic stats"/>
 <meta name="twitter:description" content="In this post you will see the network of Greek mythology we created. How the information from the Fandom wiki was extracted is detailed in the dataset post.
 The network After getting all the characters, their texts and their links the Giant Connected Component (GCC) was plotted. The characters, nodes, is given different colours to make it more visually pretty and there is added edges in between to see which characters has links to which."/>
 
@@ -125,7 +125,7 @@ The network After getting all the characters, their texts and their links the Gi
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">The Network</h1>
+      <h1 class="f1 athelas mt3 mb1">The Network and basic stats</h1>
       
       <p class="tracked">
           By <strong>
@@ -158,13 +158,29 @@ The network After getting all the characters, their texts and their links the Gi
 <p><img src="/images/force_atlas.png" alt="alt text for screen readers" title="force atlas greek network"></p>
 <h2 id="basic-statistics-of-the-network">Basic statistics of the network</h2>
 <h3 id="in-and-out-degrees">In and out degrees</h3>
-<p>We calculated the in and out degrees for the network and the results did not surprise us. Here you can see a bar plot of the top 15 most connected characters. Zeus has the top in and out degree, which is not surprising since he is the biggest name in Greek Mythology.</p>
+<p>We calculated the in and out degrees for the network and the results did not surprise us. Here you can see a bar plot of the top 15 most connected characters in our network. Zeus has the top in and out degree, which is not surprising since he is the biggest name in Greek Mythology.</p>
 <p><img src="/images/top15_in_degree.png" alt="alt text for screen readers" title="in degree top 15">
 The in-degree tells us the frequency that other character pages mention the character.</p>
 <p><img src="/images/top15_out_degree.png" alt="alt text for screen readers" title="out degree top 15">
 The out-degree tells us the frequency that a character mention other characters.</p>
 <p><img src="/images/dist.png" alt="alt text for screen readers" title="distributions"></p>
-<p><img src="/images/powerlaw.png" alt="alt text for screen readers" title="powerlaw"></p>
+<ul>
+<li>Inward degree distribution
+<ul>
+<li>This distribution follows a power-law-like pattern. There is a significant number of characters with none-to-small amount of inward links. This means that there are a few distinct characters pointed by many, and many much less relevant characters pointed by very few.  Similar to a videogame, but not as extreme, there is a character (or a set of characters, depending on where we set the degree limit) there are a few central nodes that interact with many at some point.</li>
+</ul>
+</li>
+<li>Outward degree distribution
+<ul>
+<li>Unlike the inwards degree distribution, here the most common number of degrees is  &ldquo;spread&rdquo; among more values. It is closer to a Poisson distribution.</li>
+</ul>
+</li>
+</ul>
+<h3 id="powerlaw">Powerlaw</h3>
+<p><img src="/images/powerlaw.jpg" alt="alt text for screen readers" title="powerlaw"></p>
+<p>The powerlaw exponent $\gamma$ (alpha in our output), is $\gamma \approx 2.6$ for the in-degree network and $\gamma \approx 3.6$ for the out-degree. According to Barbasi (Barabasi, 4.7), this would put the in-degree network in the scale free regime, and the out-degree in the random network regime.</p>
+<p>This was expected, as multiple hubs were noticed in the in-degree network, opposed to none in the out-degree network, as is common in these networks:
+In a random network most nodes have comparable degrees and hence hubs are forbidden. Hubs are not only tolerated, but are expected in scale-free networks. Furthermore, the more nodes a scalefree network has, the larger are its hubs. Indeed, the size of the hubs grows polynomially with network size, hence they can grow quite large in scalefree networks. In contrast in a random network the size of the largest node grows logarithmically or slower with N, implying that hubs will be tiny even in a very large random network. (Barbasi, 4.3)</p>
 <ul class="pa0">
   
 </ul>

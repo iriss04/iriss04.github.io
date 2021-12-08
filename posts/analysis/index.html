@@ -6,9 +6,8 @@
     
     <title>Analysis | Greek Mythology</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
-Word clouds We created word clouds for the top categories:
- Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files.">
+    <meta name="description" content="For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded here. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.
+Word clouds Word Clouds are a very fun way to get to know your dataset better.">
     <meta name="generator" content="Hugo 0.89.4" />
     
     
@@ -29,25 +28,22 @@ Word clouds We created word clouds for the top categories:
     
     
     <meta property="og:title" content="Analysis" />
-<meta property="og:description" content="For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
-Word clouds We created word clouds for the top categories:
- Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files." />
+<meta property="og:description" content="For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded here. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.
+Word clouds Word Clouds are a very fun way to get to know your dataset better." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://iriss04.github.io/posts/analysis/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-29T22:46:41+01:00" />
 <meta property="article:modified_time" content="2021-11-29T22:46:41+01:00" />
 
 <meta itemprop="name" content="Analysis">
-<meta itemprop="description" content="For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
-Word clouds We created word clouds for the top categories:
- Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files."><meta itemprop="datePublished" content="2021-11-29T22:46:41+01:00" />
+<meta itemprop="description" content="For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded here. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.
+Word clouds Word Clouds are a very fun way to get to know your dataset better."><meta itemprop="datePublished" content="2021-11-29T22:46:41+01:00" />
 <meta itemprop="dateModified" content="2021-11-29T22:46:41+01:00" />
-<meta itemprop="wordCount" content="207">
+<meta itemprop="wordCount" content="1356">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Analysis"/>
-<meta name="twitter:description" content="For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
-Word clouds We created word clouds for the top categories:
- Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files."/>
+<meta name="twitter:description" content="For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded here. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.
+Word clouds Word Clouds are a very fun way to get to know your dataset better."/>
 
 	
   </head>
@@ -147,9 +143,10 @@ Word clouds We created word clouds for the top categories:
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded <a href="https://github.com/iriss04/Final-Project-02805/blob/main/Explainer%20Notebook%20-%20Greek%20Mythology.ipynb">here</a>. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.</p>
 <h2 id="word-clouds">Word clouds</h2>
-<p>We created word clouds for the top categories:</p>
+<p>Word Clouds are a very fun way to get to know your dataset better. Word clouds are a visualisation that highlights the frequency of words within a text, in our case, words within categories. The word cloud picks out the most used words and ranks them by size in an image. For our word clouds we decided to only create them for the six biggest categories.</p>
+<p>Those are:</p>
 <ul>
 <li>Gods</li>
 <li>Goddesses</li>
@@ -158,15 +155,175 @@ Word clouds We created word clouds for the top categories:
 <li>Mortals</li>
 <li>Titans</li>
 </ul>
-<p>The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files. The gods clearly have one word in common - son. The people text have many familiar expressions as son, family and father. This gives an indication that the peoples text include many family relation. The creature text includes words as horse, centaur and sphinx which is not surprising since the text most likely descirbe what kind of species the creatuers are. In the WordCloud for the mortals three words stand out - son, king and troy. The Trojan war is a big event in the greek mythology which reflects the texts of the mortals. The word &ldquo;titan&rdquo; is the most repeated word of the titans, which is not very surprising but gaia - the godess of earth may also seem as a very important godess for the titans.</p>
+<p>The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files.</p>
 <p><img src="/images/gods_wc.png" alt="alt text for screen readers" title="Gods Word Cloud"></p>
 <p><img src="/images/goddess_wc.png" alt="alt text for screen readers" title="Goddess Word Cloud"></p>
 <p><img src="/images/people_wc.png" alt="alt text for screen readers" title="People Word Cloud"></p>
 <p><img src="/images/creatures_wc.png" alt="alt text for screen readers" title="Creatures Word Cloud"></p>
 <p><img src="/images/mortal_wc.png" alt="alt text for screen readers" title="Mortals Word Cloud"></p>
 <p><img src="/images/titan_wc.png" alt="alt text for screen readers" title="Titans Word Cloud"></p>
-<h2 id="communities-and-tf-idf">Communities and TF-IDF</h2>
+<p>Here&rsquo;s an overview of what can be learned about the categories from the word clouds:</p>
+<ul>
+<li>The gods clearly have one word in common - son.</li>
+<li>The goddesses wordcloud has words as daughter and Zeus as the most mentioned ones. In greek mythology Zeus is one the main gods and is said to have a lot of lovers which probably are goddesses.</li>
+<li>The people text have many familiar expressions as son, family and father. This gives an indication that the peoples text includes many family relations. - The creatures text includes words as horse, bull, monster, centaur and sphinx which is not surprising since the text most likely describe what kind of species the creatuers are.</li>
+<li>In the WordCloud for the mortals three words stand out - son, king and troy. The Trojan war is a big event in the greek mythology which reflects the texts of the mortals.</li>
+<li>Zeus, goddess, god and son are the most repeated words for the titans.</li>
+</ul>
+<h2 id="communities">Communities</h2>
+<p>For our network we identified communities with the Louvain algorithm. With this algorithm we detected 12 communities in our network, ranging from 0 to 11. The smallest community has 2 characters and the largest has 79 characters.</p>
+<p>Here you can see a histogram of the community size distribution.</p>
+<p><img src="/images/community_dist.png" alt="alt text for screen readers" title="Distribution of communities"></p>
+<p>From the distribution we can see how most of the communities have a distinct number of characters. The most frequent size of a community has 60 characters. The largest community has 79 characters and the second largest has 70 characters. It&rsquo;s interesting to see how different categories distribute down to the largest communities. Here below is a list of the number of different characters in the five largest communities.</p>
+<p>Largest community:</p>
+<ul>
+<li>Creature    35</li>
+<li>God         35</li>
+<li>Goddess     25</li>
+<li>Cyclope      2</li>
+</ul>
+<p>Second largest community:</p>
+<ul>
+<li>Creature    35</li>
+<li>God         35</li>
+<li>Goddess     10</li>
+<li>Cyclope      2</li>
+</ul>
+<p>Third largest community:</p>
+<ul>
+<li>Creature    35</li>
+<li>God         34</li>
+<li>Cyclope      2</li>
+</ul>
+<p>Fourth largest community</p>
+<ul>
+<li>Creature    35</li>
+<li>God         27</li>
+<li>Cyclope      2</li>
+</ul>
+<p>Fourth largest community</p>
+<ul>
+<li>Creature    35</li>
+<li>God         20</li>
+<li>Cyclope      2</li>
+</ul>
+<p>All of the five largest communities include creatures, gods and cyclope. The two largest ones include goddesses as well. But none of the biggest ones include peoples or mortals for example. That means that they don&rsquo;t make large communities with creatures, gods and cyclopes, which is not unusual.</p>
+<h2 id="tf-idf-of-communities">TF-IDF of communities</h2>
+<p>TF-IDF stands for term frequency-inverse document frequency and it is widely used, for example by Google search engine. This tool is a statistical measure that evaluates how relevant a word is in a document, compared to a collection of documents. To get the TF-IDF score two values are multiplied: how many times a word appears in a document and the invers document frequency of the word in a collection of documents.</p>
+<p>Let&rsquo;s look at our results:</p>
+<p>TF for the largest communities are interesting to see but it is only showing us the most frequent words in the communities. So all of the communities could have the same words as the most frequent ones.</p>
+<p>The five most frequent words for each of the five largest communities are the following:</p>
+<ul>
+<li>Largest: &lsquo;son&rsquo;, &lsquo;heracles&rsquo;, &lsquo;king&rsquo;, &lsquo;father&rsquo;, &lsquo;theseus&rsquo;</li>
+<li>Second largest: &lsquo;zeus&rsquo;, &lsquo;poseidon&rsquo;, &lsquo;demeter&rsquo;, &lsquo;hades&rsquo;, &lsquo;goddess&rsquo;</li>
+<li>Third largest: &lsquo;son&rsquo;, &lsquo;king&rsquo;, &lsquo;jason&rsquo;, &lsquo;bull&rsquo;, &lsquo;mythology&rsquo;</li>
+<li>Fourth largest: &lsquo;artemis&rsquo;, &lsquo;goddess&rsquo;, &lsquo;zeus&rsquo;, &lsquo;mythology&rsquo;, &lsquo;also&rsquo;</li>
+<li>Fifth largest: &lsquo;son&rsquo;, &lsquo;troy&rsquo;, &lsquo;achilles&rsquo;, &lsquo;war&rsquo;, &lsquo;king&rsquo;</li>
+</ul>
+<p>The term frequency is not as descriptive as TF-IDF, since it&rsquo;s only giving us the frequency of a word. TF-IDF is a very useful tool when extracting keywords from a text. The highest scoring words in the five largest communities are the most relevant to that specific community. TF-IDF gives us words that are most descriptive to that specific document, so for the largest communities, none of them get the same words.</p>
+<p>Five of the highest scoring words in terms of TF-IDF for the largest communities are the following:</p>
+<ul>
+<li>Largest: &lsquo;amphitryon&rsquo;, &lsquo;cetus&rsquo;, &lsquo;atreus&rsquo;, &lsquo;acrisius&rsquo;, &lsquo;anaxagoras&rsquo;</li>
+<li>Second largest: &lsquo;udc&rsquo;, &lsquo;amun&rsquo;, &lsquo;hestia&rsquo;, &lsquo;consort&rsquo;, &lsquo;persephone&rsquo;</li>
+<li>Third largest: &lsquo;fleece&rsquo;, &lsquo;talos&rsquo;, &lsquo;ino&rsquo;, &lsquo;circe&rsquo;, &lsquo;hnir&rsquo;</li>
+<li>Fourth largest: &lsquo;nike&rsquo;, &lsquo;arete&rsquo;, &lsquo;dike&rsquo;, &lsquo;aether&rsquo;, &lsquo;clotho&rsquo;</li>
+<li>Fifth largest: &lsquo;priam&rsquo;, &lsquo;patroclus&rsquo;, &lsquo;hector&rsquo;, &lsquo;neoptolemus&rsquo;, &lsquo;ascanius&rsquo;</li>
+</ul>
 <h2 id="sentiment-of-communities">Sentiment of communities</h2>
+<p>A sentiment analysis was performed using two different methods: labMT (language assessment by Mechanical Turk) and VADER.</p>
+<p>We did the sentiment analysis on two levels, character levels and community level. With this analysis we are able to identify which are the happiest and saddest characters and also find which communities are the happiest and saddest.</p>
+<p>But in doing this we realised that not much sentiment can be extracted from the Fandom page, so we went out on the Internet to find an extra source that would provide us with more information about the characters.</p>
+<p>We found <a href="https://www.theoi.com/">Theoi</a>, an encyclopedia-like free reference guide for greek mythology. An example of one of its pages can be found <a href="https://www.theoi.com/Olympios/Zeus.html">here</a>. All (or most) pages contain a section called CLASSICAL LITERATURE QUOTES, which provide a more &ldquo;sentimental&rdquo; description than the wiki entries.</p>
+<h4 id="character-level---labmt">Character level - LabMT</h4>
+<p><img src="/images/char_labmt.png" alt="alt text for screen readers" title="Distribution of sentiments">
+Here you can see the distribution of all characters associated sentiments.</p>
+<p>We detected the happiest and saddest characters of the greek mythology network:</p>
+<p>Happiest characters LabMT:</p>
+<ul>
+<li>Helios</li>
+<li>Selene</li>
+<li>Aegle</li>
+<li>Leto</li>
+<li>Persephone</li>
+<li>Asteria</li>
+<li>Eos</li>
+<li>Aceso</li>
+<li>Ariadne</li>
+<li>Atlas</li>
+</ul>
+<p>Saddest characters LabMT:</p>
+<ul>
+<li>Eris</li>
+<li>Hypnos</li>
+<li>Ares</li>
+<li>Sphinx</li>
+<li>Cerberus</li>
+<li>Charybdis</li>
+<li>Penthesilea</li>
+<li>Ate</li>
+<li>Achlys</li>
+<li>Aetna</li>
+</ul>
+<h4 id="character-level---vader">Character level - Vader</h4>
+<p><img src="/images/char_vader.png" alt="alt text for screen readers" title="VADER"></p>
+<p>Happiest characters Vader:</p>
+<ul>
+<li>Psyche</li>
+<li>Arete</li>
+<li>Artemis</li>
+<li>Pygmalion</li>
+<li>Leda</li>
+<li>Hermes</li>
+<li>Apollo</li>
+<li>Phoenix</li>
+<li>Demeter</li>
+<li>Aphrodite</li>
+</ul>
+<p>Saddest characters Vader:</p>
+<ul>
+<li>Cerberus</li>
+<li>Phaethon</li>
+<li>Sphinx</li>
+<li>Ate</li>
+<li>Penthesilea</li>
+<li>Charybdis</li>
+<li>Dionysus</li>
+<li>Hypnos</li>
+<li>Eris</li>
+<li>Pelos</li>
+</ul>
+<h4 id="community-level">Community level</h4>
+<p>The happiest communities for LabMT are:</p>
+<ul>
+<li>Atlas - Maia - Pleiades</li>
+<li>Apollo - Helios - Horae</li>
+<li>Poseidon - Gaia - Aphrodite</li>
+</ul>
+<p>The happiest communities for Vader are:</p>
+<ul>
+<li>Thetis - Peleus - Amphitrite</li>
+<li>Atlas - Maia - Pleiades</li>
+<li>Poseidon - Gaia - Aphrodite</li>
+</ul>
+<p>The saddest communities for LabMT are:</p>
+<ul>
+<li>Athena - Scylla - Medusa</li>
+<li>Muses - Hercules (1997 film) - Adonis</li>
+<li>Troy - Ares - Agamemnon</li>
+</ul>
+<p>The saddest communities for Vader are:</p>
+<ul>
+<li>Troy - Ares - Agamemnon</li>
+<li>Athena - Scylla - Medusa</li>
+<li>Muses - Hercules (1997 film) - Adonis</li>
+</ul>
+<p>The above happiest communities shows that the happiest community for LabMT is actually the second happiest community of Vader. The third happiest community are equal for the two analysis methods. Both approaches have the same three communities as the saddest one but not in the same order.</p>
+<p>Helios is the god of sun, Poseidon is the god of water, Aphrodite is the goddess of love and Gaia is the god of earth. These themes are often thought of as calm and positive.</p>
+<p>Medusa is a monster, Heracles is god of sports and Troy is a city which is known for the big Trojan war. Not surprisingly, these characters are among the saddest communities.</p>
+<p><img src="/images/labmt_average_with_error_bars.png" alt="alt text for screen readers" title="LabMT error bar"></p>
+<p><img src="/images/vader_average_with_error_bars.png" alt="alt text for screen readers" title="VADER error bar"></p>
+<p>In the LabMt plot the average sentiments lays between 5 to 7 for the different communities. The variation is not that wide which leads to a smaller standard devation, as showed as error bars, compared to the ones in the Vader plot. As seen in the Vader plot the range in average sentiments are broad. This is because the different sentiments for the different communitites and characters vary. This leads to greater standard deviations, hence the long error bars.</p>
+<p>The conclusion of this is that the dictionary-based method makes the communities more positive compared to the rule-based method that overall has lesser positivity in the different communities.</p>
 <ul class="pa0">
   
 </ul>

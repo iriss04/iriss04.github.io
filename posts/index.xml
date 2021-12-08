@@ -28,7 +28,7 @@ The dataset we extracted includes information about many categories of greek myt
     </item>
     
     <item>
-      <title>The Network</title>
+      <title>The Network and basic stats</title>
       <link>https://iriss04.github.io/posts/network/</link>
       <pubDate>Mon, 29 Nov 2021 23:45:51 +0100</pubDate>
       
@@ -43,9 +43,8 @@ The network After getting all the characters, their texts and their links the Gi
       <pubDate>Mon, 29 Nov 2021 22:46:41 +0100</pubDate>
       
       <guid>https://iriss04.github.io/posts/analysis/</guid>
-      <description>For this part of the project we go in deeper analysis of the dataset. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of communities.
-Word clouds We created word clouds for the top categories:
- Gods Goddesses Peoples Creatures Mortals Titans  The six different WordClouds provides a good overview of what the gods, goddesses, peoples, creatures, mortals and titans have in their text files.</description>
+      <description>For this part of the project we go in deeper analysis of the dataset. Here we will not go deep into how the analysis was performed, that information is available in our explainer notebook, which can be downloaded here. Here you will see the word clouds we created. Finding communities and calculate their TF-IDF. Then finally sentiment of the created communities.
+Word clouds Word Clouds are a very fun way to get to know your dataset better.</description>
     </item>
     
     <item>
@@ -55,7 +54,7 @@ Word clouds We created word clouds for the top categories:
       
       <guid>https://iriss04.github.io/posts/notebook/</guid>
       <description>For this project we created an explainer notebook.
-ÍBS: I&amp;rsquo;ll put a description of the notebook here
+In the explainer notebook you can find description of all the tools used in this assignment and the whole code.
 You can find the notebook here.</description>
     </item>
     
